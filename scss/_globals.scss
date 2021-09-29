@@ -1,0 +1,119 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #082032;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  margin: 0 auto;
+  // padding: 1rem 3rem;
+  max-width: 1300px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #ff4c29;
+}
+header {
+  height: auto;
+}
+body {
+  width: 100%;
+  height: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 0px;
+  background-color: #2c394b;
+}
+div {
+  padding: 5rem 0rem 0rem 3rem;
+
+  background-color: #2c394b;
+}
+.history-text{
+  padding: 3rem 0rem 0rem 0rem;
+
+}
+h2 {
+  font-size: 25px;
+  color: #ff4c29;
+  background-color: #2c394b;
+}
+p {
+  font-size: 18px;
+  color: black;
+  padding: 1rem 5rem 2rem 0rem;
+  background-color: #2c394b;
+}
+h3 {
+  color: #ff4c29;
+  padding: 0px 0px 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.history-image-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px 0px;
+}
+.title {
+  text-align: center;
+}
+.ima {
+  background-color: #2c394b;
+}
+.padre {
+  background-color: #2c394b;
+  padding-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.hijo {
+  height: 200px;
+  width: 150px;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  font-size: 22px;
+}
+main h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding: 3px 27px;
+}
+.contenedor_padre {
+  background: #082032;
+  padding: 0px;
+
+  @media screen and (max-width: 500px) {
+    .mapa {
+      width: 250px;
+    }
+    .final {
+      background: red;
+    }
+    .ima {
+      width: 150px;
+    }
+    .villa {
+      width: 250px;
+    }
+    .leg {
+      width: 150px;
+      margin: 0px;
+    }
+    .history-image-text{
+      display: block;
+    }
+  }
+}
+
